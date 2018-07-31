@@ -1,0 +1,12 @@
+name: InventorySort
+version: ${project.version}
+main: xyz.vincanote.plugin.inventorysort.InventorySort
+authors: [Bal]
+description: Inventoryを任意順でソートするプラグインです。
+website: https://github.com/Vincanote
+api-version: 1.13
+commands:
+  sort:
+    description: player inventory sort
+    usage: /<command>
+    default: true
