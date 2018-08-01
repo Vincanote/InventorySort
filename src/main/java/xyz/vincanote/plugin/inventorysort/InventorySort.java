@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.stream.Collectors;
 
-final class InventorySort extends JavaPlugin {
+public final class InventorySort extends JavaPlugin {
     static final String PLUGIN_NAME = "InventorySort";
     private InventorySortListener sortListener;
 
